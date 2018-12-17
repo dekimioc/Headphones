@@ -1,0 +1,119 @@
+.Item {
+    background-color: #fff;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    width: 97.5%;
+    margin: 10px 0 0 0;
+  }
+
+.container {
+    max-width: 1176px;
+    margin: 0 auto;
+}
+
+.navBar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-transform: uppercase;
+    color: #000;
+    padding: 0;
+}
+
+.bars {
+    padding-right: 15px;
+    vertical-align: baseline;
+    font-size: 25px;
+}
+
+.search {
+    padding: 0 15px 0 0;
+}
+
+.weight {
+    padding: 0 15px 0 15px
+}
+
+.en {
+    padding: 0 0 0 15px;
+}
+
+.closeButton {
+    padding: 0 0 0 15px;
+    font-size: 30px;
+    color: red;
+    cursor: pointer
+}
+
+.innerContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+}
+
+.leftSide {
+    margin-top: 50px;
+}
+
+.leftSideHeading {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.leftSidePara {
+    width: 340px;
+    margin-bottom: 40px;
+}
+
+.buttonAlign {
+    display: inline-block;
+}
+
+.leftSideButton {
+    background-color: #000;
+   
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    padding: 15px 25px;
+    height: 50px
+}
+
+.heart {
+   font-size: 30px;
+   margin-right: 15px;
+   height: 50px;
+   padding-left: 20px;
+   float: right
+}
+
+.heart:hover {
+    color: red;
+}
+
+.span {
+    display: block;
+    width: 90%;
+    border-bottom: 2px solid #ebebeb;
+}
+
+.buying {
+    margin-top: 10px;
+    color: #a68ad5;
+}
+
+.smallImages {
+    max-width: 70%;
+    margin: 40px auto;
+}
+
+.image {
+    margin: 0 5px;
+    box-sizing: border-box;
+ }
+
+.image:hover {
+    box-shadow: 2px 2px 2px 2px #8c68a2;
+}
